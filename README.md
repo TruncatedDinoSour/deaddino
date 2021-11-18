@@ -3,9 +3,7 @@
 
 ## Installation
 ```bash
-$ sudo emerge --ask --quiet app-eselect/eselect-repository
-$ sudo eselect repository add 'deaddino' 'git' 'https://github.com/TruncatedDinosour/deaddino.git'
-$ sudo eselect repository enable deaddino
-$ sudo emerge --sync
+$ sudo mkdir -p /etc/portage/repos.conf
+$ sudo curl -fl 'https://raw.githubusercontent.com/TruncatedDinosour/deaddino/main/deaddino.conf' -o /etc/portage/repos.conf/deaddino.conf
+$ sudo emerge --sync deaddino
 ```
-
