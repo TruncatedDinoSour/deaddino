@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
-  <repo quality="experimental" status="unofficial">
-    <name>deaddino</name>
-    <description>Deaddino is a gentoo overlay of dead/deprecated dinolay ebuilds</description>
-    <homepage>https://github.com/TruncatedDinosour/deaddino</homepage>
-    <owner type="project">
-      <email>truncateddinosour@gmail.com</email>
-      <name>Ari Archer</name>
-    </owner>
-    <source type="git">https://github.com/TruncatedDinosour/deaddino.git</source>
-  </repo>
+    <repo quality="experimental" status="unofficial">
+        <name>deaddino</name>
+        <description>Dinolay dead/deprecated ebuilds</description>
+        <homepage>https://github.com/TruncatedDinosour/deaddino</homepage>
+        <owner type="project">
+            <email>ari.web.xyz@gmail.com</email>
+            <name>Ari Archer</name>
+        </owner>
+        <source type="git">https://github.com/TruncatedDinosour/deaddino.git</source>
+        <source type="git">git://github.com/TruncatedDinosour/deaddino.git</source>
+        <source type="git">git@github.com:TruncatedDinosour/deaddino.git</source>
+        <feed>https://github.com/TruncatedDinosour/deaddino/commits/main.atom</feed>
+    </repo>
 </repositories>
